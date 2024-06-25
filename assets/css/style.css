@@ -6854,7 +6854,7 @@ textarea, select {
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(9, 42, 72, 0.75);
+        background: rgb(255 69 0 / 45%);
         opacity: 0;
         z-index: 1;
         -webkit-transition: 0.5s;
@@ -6910,7 +6910,7 @@ textarea, select {
             -o-transition: 0.5s;
             transition: 0.5s; }
             .team-page-section .section-wrapper .team-wrapper .caption .hover-view li i:hover {
-              color: #48c7ec; }
+              color: #0c0b0bd6 }
     .team-page-section .section-wrapper .team-wrapper .contact-wrapper {
       margin-top: 20px; }
       .team-page-section .section-wrapper .team-wrapper .contact-wrapper h4 {

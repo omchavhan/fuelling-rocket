@@ -2141,7 +2141,7 @@ textarea, select {
         Testimonial-Section STYLE 
 ============================================================ */
 .testimonial-section {
-  background: url(../images/about-balck.jpg) no-repeat center;
+  background: url(../images/pexels-danielabsi-952670.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed; }
   @media only screen and (max-width: 479px) {
@@ -5864,7 +5864,7 @@ textarea, select {
           margin-bottom: 0; }
         .footer-section .footer-container .footer-wrapper .location li i {
           font-size: 24px;
-          color: #48c7ec;
+          color: orangered;
           vertical-align: top; }
           @media only screen and (max-width: 991px) {
             .footer-section .footer-container .footer-wrapper .location li i {
@@ -5919,7 +5919,7 @@ textarea, select {
         .footer-section .footer-container .footer-wrapper .wrapper-option li a {
           color: #aaa; }
           .footer-section .footer-container .footer-wrapper .wrapper-option li a:hover {
-            color: #48c7ec; }
+            color: orangered; }
   .footer-section .copy-right {
     background-color: #061d31;
     padding: 16px 0;
@@ -6680,7 +6680,7 @@ textarea, select {
         SubPage-STYLE 
 ============================================================ */
 .subPage .header-title {
-  background: url(../images/contact-us.jpg) no-repeat center top;
+  background: url(../images/banner-.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed; }
   @media only screen and (max-width: 767px) {

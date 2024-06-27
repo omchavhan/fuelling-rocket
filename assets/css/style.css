@@ -512,7 +512,7 @@ textarea, select {
     right: 0;
     width: 100px;
     height: 4px;
-    background-color: #48c7ec;
+    background-color: orangered;
     margin: 0 auto; }
     @media only screen and (max-width: 767px) {
       .section-title .border-2 {
@@ -2457,14 +2457,14 @@ textarea, select {
         Service-Section STYLE 
 ============================================================ */
 .service-section {
-  background-color: #092a48; }
+  background-color: white; }
   .service-section .section-title {
     margin-bottom: 65px; }
     @media only screen and (max-width: 479px) {
       .service-section .section-title {
         margin-bottom: 20px; } }
     .service-section .section-title h2 {
-      color: #FFFFFF; }
+      color: #000000;; }
   .service-section .first-row {
     margin-bottom: 45px; }
     @media (min-width: 992px) and (max-width: 1199px) {
@@ -2497,7 +2497,7 @@ textarea, select {
       .service-section .service-wrapper:hover .wrapper-content h3 a {
         color: #002e5b; }
         .service-section .service-wrapper:hover .wrapper-content h3 a:hover {
-          color: #48c7ec; }
+          color: orangered; }
       .service-section .service-wrapper:hover .hover .hover-one,
       .service-section .service-wrapper:hover .hover .hover-two,
       .service-section .service-wrapper:hover .hover .hover-three,
@@ -2511,7 +2511,7 @@ textarea, select {
     .service-section .service-wrapper i {
       position: relative;
       font-size: 24px;
-      color: #48c7ec;
+      color: orangered;
       float: left;
       z-index: 5; }
       @media only screen and (max-width: 479px) {
@@ -2537,11 +2537,11 @@ textarea, select {
             font-size: 20px;
             line-height: 25px; } }
         .service-section .service-wrapper .wrapper-content h3 a {
-          color: #FFFFFF; }
+          color: #000000; }
           .service-section .service-wrapper .wrapper-content h3 a:hover {
             color: #48c7ec; }
       .service-section .service-wrapper .wrapper-content p {
-        color: #9a9a9a;
+        color: #000000ad;
         margin-bottom: 0; }
     .service-section .service-wrapper .hover .hover-one,
     .service-section .service-wrapper .hover .hover-two,
@@ -6641,7 +6641,7 @@ textarea, select {
     .homePageFive .service-section {
       padding-bottom: 30px; } }
   .homePageFive .service-section .section-title h2 {
-    color: #092a48; }
+    color: #000000; }
   .homePageFive .service-section .service-wrapper:hover {
     box-shadow: 0 0 40px #cecece; }
   .homePageFive .service-section .service-wrapper .wrapper-content h3 a {
@@ -7620,7 +7620,7 @@ textarea, select {
       .service-page-section .single-service-wrapper #service-carousel .carousel-indicators li.active {
         width: 15px;
         height: 15px;
-        background-color: #48c7ec;
+        background-color: orangered;
         margin: -3px 20px; }
         @media only screen and (max-width: 479px) {
           .service-page-section .single-service-wrapper #service-carousel .carousel-indicators li.active {
@@ -8101,10 +8101,16 @@ textarea, select {
   list-style: none; /* Remove default list styles */
   padding: 0;
   margin: 0;
+  
+}
+
+.horizontal-list li{
+  display: flex;
+ 
 }
 
 .horizontal-list li {
-  display: inline-block; /* Display list items inline */
+  display: flex; /* Display list items inline */
   margin-right: 50px; /* Adjust spacing between items */
   vertical-align: top; /* Align items vertically */
 }

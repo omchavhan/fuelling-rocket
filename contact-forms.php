@@ -52,7 +52,7 @@
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
-        // header("Location: ".$_SERVER["HTTP_REFERER"]);
+        header("Location: ".$_SERVER["HTTP_REFERER"]);
         exit;
     }
 
